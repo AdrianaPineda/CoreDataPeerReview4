@@ -14,6 +14,8 @@
 		01132F7B1C2E3A5D006275A0 /* PeerReviewW4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01132F791C2E3A5D006275A0 /* PeerReviewW4.xcdatamodeld */; };
 		01132F7D1C2E3A5D006275A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01132F7C1C2E3A5D006275A0 /* Assets.xcassets */; };
 		01132F801C2E3A5D006275A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01132F7E1C2E3A5D006275A0 /* LaunchScreen.storyboard */; };
+		0158F73D1C2F3539008FAF06 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0158F73A1C2F3539008FAF06 /* Student+CoreDataProperties.m */; };
+		0158F73E1C2F3539008FAF06 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0158F73C1C2F3539008FAF06 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		01132F7C1C2E3A5D006275A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01132F7F1C2E3A5D006275A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01132F811C2E3A5D006275A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0158F7391C2F3539008FAF06 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0158F73A1C2F3539008FAF06 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0158F73B1C2F3539008FAF06 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0158F73C1C2F3539008FAF06 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		01132F611C2E3A5D006275A0 = {
 			isa = PBXGroup;
 			children = (
+				0158F7391C2F3539008FAF06 /* Student+CoreDataProperties.h */,
+				0158F73A1C2F3539008FAF06 /* Student+CoreDataProperties.m */,
+				0158F73B1C2F3539008FAF06 /* Student.h */,
+				0158F73C1C2F3539008FAF06 /* Student.m */,
 				01132F6C1C2E3A5D006275A0 /* PeerReviewW4 */,
 				01132F6B1C2E3A5D006275A0 /* Products */,
 			);
@@ -153,9 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				01132F751C2E3A5D006275A0 /* ViewController.m in Sources */,
+				0158F73D1C2F3539008FAF06 /* Student+CoreDataProperties.m in Sources */,
 				01132F721C2E3A5D006275A0 /* AppDelegate.m in Sources */,
 				01132F7B1C2E3A5D006275A0 /* PeerReviewW4.xcdatamodeld in Sources */,
 				01132F6F1C2E3A5D006275A0 /* main.m in Sources */,
+				0158F73E1C2F3539008FAF06 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				01132F861C2E3A5D006275A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
